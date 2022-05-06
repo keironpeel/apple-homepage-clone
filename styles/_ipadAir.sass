@@ -1,0 +1,32 @@
+.ipad-air
+    align-items: center
+    background-image: url("assets/ipad_air.jpeg")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: 3008px 624px
+    color: $white
+    display: flex
+    flex-direction: column
+    height: 624px
+    margin-bottom: 12px
+
+    @media screen and (max-width: 1120px)
+        background-image: url("assets/ipad_air_2.jpeg")
+        background-size: cover
+
+    .container
+        padding-top: 192px
+        position: relative
+        right: 333px
+        text-align: center
+
+        @media screen and (max-width: 1120px)
+            padding-top: 63px
+            position: static
+
+        h2
+        @media screen and (max-width: 1120px)
+            padding-top: 1px
+
+    a
+        color: $lightBlue

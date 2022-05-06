@@ -1,0 +1,28 @@
+.unicef
+    background-color: $light
+    font-size: 14px
+
+    .container
+        align-items: center
+        display: flex
+        justify-content: center
+        padding: 20px 0
+
+        @media screen and (max-width: 768px)
+            flex-direction: column
+
+        .unicef-logo
+            background-image: url("assets/unicef_logo.png")
+            background-repeat: no-repeat
+            background-size: 122px 32px
+            height: 32px
+            margin: unset
+            width: 122px
+
+        a
+            margin-left: 14px
+
+            @media screen and (max-width: 768px)
+                margin-top: 4px
+                max-width: 215px
+                text-align: center

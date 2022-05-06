@@ -1,0 +1,90 @@
+$dark: rgba(0, 0, 0, 0.8)
+$light: #fbfbfd
+$white: #ffffff
+$blue: #06c
+$lightBlue: #2997ff
+$text-color: #1d1d1f
+$light-text: #f5f5f7
+$apple-font: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+$apple-heading-font: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+
+*, *::before, *::after
+    box-sizing: border-box
+
+body
+    color: $text-color
+    font-family: $apple-font
+    font-weight: 400
+    margin: 0
+    padding: 0
+
+a
+    color: $blue
+    text-decoration: none
+
+    &:hover
+        text-decoration: underline
+
+h2
+    font-family: $apple-heading-font
+    font-size: 56px
+    font-weight: 600
+    letter-spacing: -.005em
+    line-height: 1.07143
+    margin: unset
+    padding-top: 47px
+
+h3
+    font-family: $apple-heading-font
+    font-size: 28px
+    font-weight: 400
+    letter-spacing: .004em
+    line-height: 1.10722
+    margin: unset
+    margin-top: 6px
+
+h4
+    font-family: $apple-heading-font
+    font-size: 40px
+    font-weight: 600
+    letter-spacing: 0
+    margin: unset
+    margin-left: auto
+    margin-right: auto
+    margin-top: 53px
+    max-width: 430px
+    width: 88%
+
+h5
+    font-family: $apple-heading-font
+    font-size: 21px
+    font-weight: 400
+    letter-spacing: .016em
+    line-height: 1.2381
+    margin: unset
+    margin-left: auto
+    margin-right: auto
+    margin-top: 4px
+    max-width: 430px
+    width: 88%
+
+.cta-links
+    font-size: 21px
+    letter-spacing: .011em
+    line-height: 1.381
+    margin-top: 13.65px
+
+    a
+        &::after
+            content: ">"
+            padding-left: 6.3px
+
+        &:last-of-type
+            margin-left: 35px
+
+@import "navigation"
+@import "unicef"
+@import "iphoneHero"
+@import "iphoneSe"
+@import "ipadAir"
+@import "grid"
